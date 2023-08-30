@@ -32,7 +32,25 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/********** Template CSS **********/
+:root {
+  --primary: #06A3DA;
+  --secondary: #34AD54;
+  --light: #EEF9FF;
+  --dark: #091E3E;
+}
+
+#hero h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
 }
